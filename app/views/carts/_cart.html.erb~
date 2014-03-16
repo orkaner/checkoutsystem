@@ -4,7 +4,7 @@
  
   <tr class="total_line">
     <td colspan="2">Total</td>
-     <%  if product.name="Lavender heart" product.price="8.50"%>
+ 
         
     <td class="total_cell"><%= number_to_currency(cart.total_price,{:unit => "&pound;"}) %></td>
   </tr>
